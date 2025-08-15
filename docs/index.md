@@ -1,6 +1,7 @@
 # Welcome to TrySpace Atlas
 
-The TrySpace Atlas is your comprehensive guide to understanding and working with TrySpace Lab. This documentation is designed to support users, developers, and contributors by providing clear and detailed information.
+The TrySpace Atlas is your comprehensive guide to understanding and working with TrySpace Lab.
+This documentation is designed to support users, developers, and contributors by providing clear and detailed information.
 
 ## Contents
 
@@ -12,3 +13,6 @@ The TrySpace Atlas is your comprehensive guide to understanding and working with
 
 To begin, explore the sections above or use the search functionality to find specific topics.
 If you have questions or need help, feel free to start a [GitHub Discussion](https://github.com/TrySpaceOrg/tryspace-lab/discussions).
+For bug reports or feature requests, please open a [GitHub Issue](https://github.com/TrySpaceOrg/tryspace-lab/issues).
+We welcome contributions from everyone.
+Please review our [Contributing Guidelines](CONTRIBUTING.md) for details on how to get started.
