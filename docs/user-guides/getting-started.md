@@ -3,7 +3,7 @@
 A short quick-start to get a running TrySpace Lab environment.
 For detailed reference see the linked pages (Installation, Configuration, Operations, Data & Cleanup, Troubleshooting).
 
-## TL;DR
+## Walkthrough
 * Ensure Docker, Docker Compose (v2+), Make and Git are installed (see `installation.md`).
 * Clone and initialize submodules:
 
