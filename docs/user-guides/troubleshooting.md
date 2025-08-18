@@ -12,9 +12,6 @@ Short troubleshooting checklist and common issues.
 * Data keeps growing across runs
   * Reason: Named Docker volumes persist. To reset, run `docker compose -f ./cfg/lab-compose.yml down --volumes`.
 
-* Permission errors on created files
-  * Fix: Run `make env` to populate UID/GID in `cfg/.env` and restart containers, or adjust ownership on host files.
-
 * Port conflicts (e.g., 8090)
   * Fix: Stop the conflicting service or modify `cfg/lab-compose.yml` to use a different host port.
 
