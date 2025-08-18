@@ -17,11 +17,21 @@ theme:
         name: Switch to light mode
   logo: assets/tryspace_logo_transparent.png
 
+extra_css:
+  - assets/css/custom.css
+
 nav:
   - Home: index.md
+  - About: about.md
   - User Guides:
-      - Getting Started: user-guides/getting-started.md
+    - Getting Started: user-guides/getting-started.md
+    - Installation: user-guides/installation.md
+    - Configuration: user-guides/configuration.md
+    - Operations: user-guides/operations.md
+    - Data & Cleanup: user-guides/data-and-cleanup.md
+    - Troubleshooting: user-guides/troubleshooting.md
   - Examples and Tutorials:
       - Basic Simulation: examples-and-tutorials/basic-simulation.md
   - Developer Documentation:
       - Architecture Overview: developer-documentation/architecture-overview.md
+  - Contact: contact.md
