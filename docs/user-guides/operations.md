@@ -19,13 +19,13 @@ docker attach tryspace-server
 Follow logs for all services:
 
 ```bash
-docker compose -f ./cfg/lab-compose.yml logs -f
+docker compose -f ./cfg/lab-compose.yaml logs -f
 ```
 
 Follow logs for a single service:
 
 ```bash
-docker compose -f ./cfg/lab-compose.yml logs -f tryspace-server
+docker compose -f ./cfg/lab-compose.yaml logs -f tryspace-server
 ```
 
 ## Services breakdown
@@ -37,7 +37,7 @@ docker compose -f ./cfg/lab-compose.yml logs -f tryspace-server
 
 ```bash
 docker attach tryspace-server
-docker compose -f ./cfg/lab-compose.yml logs -f tryspace-server
+docker compose -f ./cfg/lab-compose.yaml logs -f tryspace-server
 ```
 
 ### tryspace-director
@@ -47,7 +47,7 @@ docker compose -f ./cfg/lab-compose.yml logs -f tryspace-server
 
 ```bash
 docker attach tryspace-director
-docker compose -f ./cfg/lab-compose.yml logs -f tryspace-director
+docker compose -f ./cfg/lab-compose.yaml logs -f tryspace-director
 ```
 
 ### tryspace-fsw
@@ -57,23 +57,23 @@ docker compose -f ./cfg/lab-compose.yml logs -f tryspace-director
 
 ```bash
 docker attach tryspace-fsw
-docker compose -f ./cfg/lab-compose.yml logs -f tryspace-fsw
+docker compose -f ./cfg/lab-compose.yaml logs -f tryspace-fsw
 ```
 
 ### tryspace-gsw
 * Purpose: Ground Software (GSW) container running YAMCS (ground station interface and telemetry archive).
 * Typical use: open the web UI, examine telemetry, and export or inspect persistent data.
-* Ports: 8090 -> 8090 (host) for the YAMCS web UI (confirm in `cfg/lab-compose.yml`).
+* Ports: 8090 -> 8090 (host) for the YAMCS web UI (confirm in `cfg/lab-compose.yaml`).
 * Volumes:
   * `gsw-data` — persistent YAMCS data (preserved across `docker compose down` unless `--volumes` is used).
-* Healthcheck: Compose defines an HTTP healthcheck against `http://localhost:8090` (see `cfg/lab-compose.yml`).
+* Healthcheck: Compose defines an HTTP healthcheck against `http://localhost:8090` (see `cfg/lab-compose.yaml`).
 * Common commands:
 
 ```bash
 # Open UI in a browser
 firefox http://localhost:8090
 
-docker compose -f ./cfg/lab-compose.yml logs -f tryspace-gsw
+docker compose -f ./cfg/lab-compose.yaml logs -f tryspace-gsw
 # inspect persistent data
 docker volume inspect gsw-data
 ```
