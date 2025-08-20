@@ -74,8 +74,10 @@ docker compose -f ./cfg/lab-compose.yaml logs -f tryspace-fsw
 firefox http://localhost:8090
 
 docker compose -f ./cfg/lab-compose.yaml logs -f tryspace-gsw
-# inspect persistent data
+# Inspect persistent data
 docker volume inspect gsw-data
+# View latest logs
+docker logs --tail 200 tryspace-gsw
 ```
 
 ## Stopping
