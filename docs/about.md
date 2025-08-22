@@ -1,6 +1,6 @@
 # About TrySpace
 
-TrySpace is a space software and systems engineering company founded to accelerate space mission development through open-source tools, software digital twins, and mission-first engineering.
+TrySpace is a space software and systems design company founded to accelerate space mission development through open-source tools, software digital twins, and a mission-first approach.
 
 ## Mission & Philosophy
 
@@ -10,7 +10,7 @@ To democratize access to high-quality space system development tools through pra
 
 <img src="/assets/jpl_tvac.jpg" alt="jpl_tvac" class="center" />
 
-TrySpace was founded by a NASA systems engineer and software developer with over a decade of experience in embedded systems, flight software, and simulation infrastructure.
+TrySpace was founded by a NASA software developer with over a decade of experience in embedded systems, flight software, and simulation infrastructure.
 
 Key contributions include CryptoLib and the NASA Operational Simulator for Small Satellites (NOS3) — tools trusted across multiple NASA missions for rapid prototyping, testing, and operations.
 
@@ -20,10 +20,10 @@ Key contributions include CryptoLib and the NASA Operational Simulator for Small
 - End-to-end mission simulation and architecture
 - Custom tools for flight and ground systems
 - Integration and support for open-source space software
-- Systems engineering and technical consulting
+- Technical consulting
 
 ## Why TrySpace?
 
-Because building for space is hard.
-We believe it should be easier to try, test, and fly — and software is the key.
-TrySpace is here to lower the barrier, increase reuse, and enable your mission to launch smarter.
+Building for space is hard.
+We provide the software solutions that make it easier to try, test, and fly.
+TrySpace lowers the barriers to entry, increases reuse, and enables your mission to launch smarter.
