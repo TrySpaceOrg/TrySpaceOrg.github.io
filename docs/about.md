@@ -8,19 +8,20 @@ To democratize access to high-quality space system development tools through pra
 
 ## Founder Background
 
-<img src="/assets/jpl_tvac.jpg" alt="jpl_tvac" class="center" />
-
 TrySpace was founded by a NASA software developer with over a decade of experience in embedded systems, flight software, and simulation infrastructure.
 
-Key contributions include CryptoLib and the NASA Operational Simulator for Small Satellites (NOS3) — tools trusted across multiple NASA missions for rapid prototyping, testing, and operations.
+<img src="/assets/jpl_tvac.jpg" alt="jpl_tvac" class="center" />
+
+Key open-source contributions include CryptoLib and the NASA Operational Simulator for Small Satellites (NOS3).
+These tools have and continue to be leveraged on NASA missions for rapid prototyping, testing, and operations.
 
 ## What We Do
 
-- Software-only digital twins for space systems
-- End-to-end mission simulation and architecture
-- Custom tools for flight and ground systems
-- Integration and support for open-source space software
-- Technical consulting
+* Custom tools for flight and ground systems
+* End-to-end mission simulation and architecture
+* Integration and support for open-source space software
+* Software-only digital twins for space systems
+* Technical consulting
 
 ## Why TrySpace?
 

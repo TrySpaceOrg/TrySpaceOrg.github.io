@@ -1,7 +1,6 @@
 # Welcome to TrySpace Atlas
 
-The TrySpace Atlas is your comprehensive guide to understanding and working with TrySpace Lab.
-This documentation is designed to support users, developers, and contributors by providing clear and detailed information.
+This atlas is your comprehensive guide to understanding and working with TrySpace Lab.
 
 <img src="/assets/tryspace.png" alt="tryspace" class="center" />
 
