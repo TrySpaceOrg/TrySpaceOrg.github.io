@@ -18,4 +18,5 @@ To begin, explore the sections above or use the search functionality to find spe
 If you have questions or need help, feel free to start a [GitHub Discussion](https://github.com/TrySpaceOrg/tryspace-lab/discussions).
 For bug reports or feature requests, please open a [GitHub Issue](https://github.com/TrySpaceOrg/tryspace-lab/issues).
 We welcome contributions from everyone.
-Please review our Contributing Guidelines in the tryspace-lab repository for details on how to get started.
+
+We're happy to help you TrySpace!

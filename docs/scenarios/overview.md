@@ -1,6 +1,14 @@
-# Under Construction
+# Scenarios
 
-<img src="/assets/jpl_tvac.jpg" alt="jpl_tvac" class="center" />
+The various scenarios are designed to mimic those one may see while operating a space vehicle:
 
-Building for space is hard, so is documentation.
-Check back soon!
+* [Commissioning](commissioning.md)
+* [Nominal Operations](nominal-operations.md)
+* [Fault Detection, Isolation, and Recovery](fdir.md)
+* [Security](security-incident-response.md)
+
+Each of these scenarios contains an objective, prerequisites, and and overview before getting started.
+If you have questions please feel free to open a [GitHub Discussion](https://github.com/TrySpaceOrg/tryspace-lab/discussions).
+If you find any bugs or issues you may open a [GitHub Issue](https://github.com/TrySpaceOrg/tryspace-lab/issues).
+
+We're happy to help you TrySpace!
