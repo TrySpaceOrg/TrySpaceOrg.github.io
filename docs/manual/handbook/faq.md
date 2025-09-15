@@ -23,6 +23,8 @@ Short troubleshooting checklist and common issues.
 docker compose -f ./cfg/lab-compose.yaml logs --tail 200 tryspace-server
 # inspect container exit code
 docker inspect --format='{{.State.ExitCode}}' tryspace-server
+# copy files from container
+ docker cp tryspace-fsw:/tmp/radio_sim_cf_9.bin .
 ```
 
 ## When to open an issue
