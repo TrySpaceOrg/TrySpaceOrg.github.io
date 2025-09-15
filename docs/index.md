@@ -1,15 +1,16 @@
 # Welcome to TrySpace Atlas
 
-The TrySpace Atlas is your comprehensive guide to understanding and working with TrySpace Lab.
-This documentation is designed to support users, developers, and contributors by providing clear and detailed information.
+This atlas is your comprehensive guide to understanding and working with TrySpace Lab.
 
 <img src="/assets/tryspace.png" alt="tryspace" class="center" />
 
 ## Contents
 
-- [**User Guides**](user-guides/getting-started.md): Step-by-step instructions for setting up and using TrySpace Lab.
-- [**Examples and Tutorials**](examples-and-tutorials/basic-simulation.md): Practical examples and walkthroughs to help users get started quickly.
-- [**Developer Documentation**](developer-documentation/architecture-overview.md): Detailed explanations of the architecture, codebase, and APIs.
+- [**About**](about.md): Background and purpose of TrySpace.
+- [**Lab Manual**](manual/handbook/getting-started.md): Guide to installing, configuring, and understanding TrySpace Lab.
+- [**Design Reference Mission**](drm/concept-of-operations.md): Formal specification and "paperwork" for the example mission.
+- [**Scenarios**](scenarios/overview.md): Step-by-step walkthroughs of practical mission operations.
+- [**Contact**](contact.md): Let's build something together!
 
 ## First Steps
 
@@ -17,4 +18,5 @@ To begin, explore the sections above or use the search functionality to find spe
 If you have questions or need help, feel free to start a [GitHub Discussion](https://github.com/TrySpaceOrg/tryspace-lab/discussions).
 For bug reports or feature requests, please open a [GitHub Issue](https://github.com/TrySpaceOrg/tryspace-lab/issues).
 We welcome contributions from everyone.
-Please review our Contributing Guidelines in the tryspace-lab repository for details on how to get started.
+
+We're happy to help you TrySpace!

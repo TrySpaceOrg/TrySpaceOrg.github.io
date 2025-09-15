@@ -1,4 +1,4 @@
-# Operations
+# Building
 
 Standard operations and common commands for running TrySpace Lab.
 

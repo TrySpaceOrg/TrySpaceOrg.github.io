@@ -20,18 +20,51 @@ theme:
 extra_css:
   - assets/css/custom.css
 
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tilde
+
 nav:
   - Home: index.md
   - About: about.md
-  - User Guides:
-    - Getting Started: user-guides/getting-started.md
-    - Installation: user-guides/installation.md
-    - Configuration: user-guides/configuration.md
-    - Operations: user-guides/operations.md
-    - Data & Cleanup: user-guides/data-and-cleanup.md
-    - Troubleshooting: user-guides/troubleshooting.md
-  - Examples and Tutorials:
-      - Basic Simulation: examples-and-tutorials/basic-simulation.md
-  - Developer Documentation:
-      - Architecture Overview: developer-documentation/architecture-overview.md
   - Contact: contact.md
+  - Lab Manual:
+    - Handbook:
+      - Getting Started: manual/handbook/getting-started.md
+      - Installation: manual/handbook/installation.md
+      - FAQ: manual/handbook/faq.md
+    - Core Concepts:
+      - Space Systems: manual/core-concepts/space-systems.md
+      - Architecture: manual/core-concepts/architecture.md
+      - Development Workflow: manual/core-concepts/development-workflow.md
+      - Flight Software: manual/core-concepts/flight-software.md
+      - Ground Software: manual/core-concepts/ground-software.md
+      - Simulations: manual/core-concepts/simulations.md
+    - How-To Guides:
+      - Configuration: manual/how-to/configuration.md
+      - Demo Component: manual/how-to/demo-component.md
+      - Component Mold: manual/how-to/component-mold.md
+      - Docker: manual/how-to/docker.md
+    - Technical Reference:
+      - Building: manual/technical-reference/building.md
+      - Cleanup: manual/technical-reference/cleanup.md
+      - Compilation: manual/technical-reference/compilation.md
+      - Debugging: manual/technical-reference/debugging.md
+      - Testing: manual/technical-reference/testing.md
+      - Time: manual/technical-reference/time.md
+  - Design Reference Mission:
+    - Concept of Operations: drm/concept-of-operations.md
+    - Mission Requirements: drm/mission-requirements.md
+    - Interface Control Document: drm/interface-control-document.md
+    - Assembly, Integration, and Test: drm/ait-plan.md
+    - Operations Plan: drm/operations-plan.md
+  - Scenarios:
+    - Overview: scenarios/overview.md
+    - Commissioning: scenarios/commissioning.md
+    - Nominal Operations: scenarios/nominal-operations.md
+    - Fault Detection, Isolation, and Recovery: scenarios/fdir.md
+    - Security Incident Response: scenarios/security-incident-response.md
