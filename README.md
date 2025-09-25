@@ -2,13 +2,6 @@
 
 The TrySpace Atlas is a comprehensive documentation set designed to support users, developers, and contributors.
 
-## Contents
-
-- **User Guides**: Step-by-step instructions for setting up and using TrySpace Lab.
-- **Developer Documentation**: Detailed explanations of the architecture, codebase, and APIs.
-- **Reference Materials**: Glossaries, configuration options, and troubleshooting tips.
-- **Examples and Tutorials**: Practical examples and walkthroughs to help users get started quickly.
-
 ## Purpose
 
 The Atlas serves as a single source of truth for all things related to TrySpace Lab, ensuring clarity and consistency across the project.
